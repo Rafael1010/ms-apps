@@ -1,0 +1,8 @@
+{
+    "name": "CategoryFeed",
+    "author": "Luiz",
+    "description": "Carrossel de categorias robusto e moderno.",
+    "version": "1.0",
+    "date": "12/12/2022",
+    "compatibility": ["explorer", "harmonia"]
+}
