@@ -4,5 +4,6 @@
     "description": "Um contador elegante e de fácil manutenção.",
     "version": "1.0",
     "date": "26/12/2022",
-    "compatibility": ["explorer", "harmonia"]
+    "compatibility": ["explorer", "harmonia"],
+    "props": ["text#Digite uma data"]
 }
