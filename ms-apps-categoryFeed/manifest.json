@@ -5,5 +5,18 @@
     "version": "1.0",
     "date": "12/12/2022",
     "compatibility": ["explorer", "harmonia"],
-    "props": ["text#Qual o link da página?"]
+    "props": {
+        "ms-atributo-data-inicio": {
+            "block": {
+                "description": "Quando será o inicio?",
+                "textarea": "Digite uma data de inicio"
+            }
+        },
+        "ms-atributo-data-termino": {
+            "block": {
+                "description": "Quando será o fim?",
+                "file": "Digite uma data de termino"
+            }
+        }
+    }
 }

@@ -9,13 +9,13 @@
         "ms-atributo-data-inicio": {
             "block": {
                 "description": "Quando será o inicio?",
-                "textarea": "Digite uma data de inicio"
+                "text": "Digite uma data de inicio"
             }
         },
         "ms-atributo-data-termino": {
             "block": {
                 "description": "Quando será o fim?",
-                "file": "Digite uma data de termino"
+                "text": "Digite uma data de termino"
             }
         }
     }
