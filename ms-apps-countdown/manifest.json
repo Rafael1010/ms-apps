@@ -1,5 +1,6 @@
 {
     "name": "Countdown",
+    "codename": "ms-apps-countdown",
     "author": "Iasmin",
     "description": "Um contador elegante e de fácil manutenção.",
     "version": "1.0",

@@ -1,5 +1,6 @@
 {
     "name": "CategoryFeed",
+    "codename": "ms-apps-categoryFeed",
     "author": "Luiz",
     "description": "Carrossel de categorias robusto e moderno.",
     "version": "1.0",
