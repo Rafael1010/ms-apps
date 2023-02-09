@@ -181,7 +181,7 @@
 </script> */
 
 
-class Countdown extends ElementHTML {
+class Countdown extends HTMLElement {
 
     constructor() {
         super()
