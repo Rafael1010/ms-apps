@@ -18,6 +18,12 @@
                 "description": "Quando será o fim?",
                 "file": "Digite uma data de termino"
             }
+        },
+        "ms-atributo-data-link": {
+            "block": {
+                "description": "Adicione um link",
+                "text": "Qual o link do produto"
+            }
         }
     }
 }

@@ -188,6 +188,9 @@ class Countdown extends HTMLElement {
 
         const SHADOW = this.attachShadow({"mode": "open"})
 
+        let inicial = this.getAtribute("data-inicial")
+        let final = this.getAtribute("data-final")
+
         const CSS = `
         <style>
         .counter {

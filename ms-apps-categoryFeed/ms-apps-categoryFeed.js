@@ -1,4 +1,4 @@
-<style>
+/*<style>
     .category-feed{
         margin: auto;
     }
@@ -289,4 +289,4 @@
         fade: true,
         asNavFor: '.category-feed__items',
     });
-</script>
+</script>*/
