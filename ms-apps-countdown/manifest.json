@@ -20,7 +20,7 @@
             }
         }
     },
-    "color": {
+    "colors": {
         "*": {
             "Cabeçalho": {
                 "Menu": {
