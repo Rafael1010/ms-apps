@@ -25,5 +25,57 @@
                 "text": "Qual o link do produto"
             }
         }
+    },
+    "color": {
+        "*": {
+            "Cabeçalho": {
+                "Menu": {
+                    "color": "#440ca2",
+                    "background":"#000000",
+                }
+            },
+            "Rodapé": {
+                "Rodape": {
+                    "color": "#000000"
+                }
+            },
+            "Miolo": {
+
+            }
+        },
+        "home": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        },
+        "category": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        },
+        "product": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        }
     }
 }
+
