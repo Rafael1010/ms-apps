@@ -19,5 +19,56 @@
                 "text": "Digite uma data de termino"
             }
         }
+    },
+    "color": {
+        "*": {
+            "Cabeçalho": {
+                "Menu": {
+                    "color": "#440ca2",
+                    "background":"#000000",
+                }
+            },
+            "Rodapé": {
+                "Rodape": {
+                    "color": "#000000"
+                }
+            },
+            "Miolo": {
+
+            }
+        },
+        "home": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        },
+        "category": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        },
+        "product": {
+            "Cabeçalho": {
+
+            },
+            "Rodapé": {
+
+            },
+            "Miolo": {
+                
+            }
+        }
     }
 }
