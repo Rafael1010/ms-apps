@@ -7,22 +7,22 @@
     "date": "12/12/2022",
     "compatibility": ["explorer", "harmonia"],
     "props": {
-        "ms-atributo-data-inicio": {
+        "ms-atributo-data-imagem1": {
             "block": {
-                "description": "Quando será o inicio?",
-                "textarea": "Digite uma data de inicio"
+                "description": "Digite a URL da sua imagem:",
+                "text": "URL"
             }
         },
-        "ms-atributo-data-termino": {
+        "ms-atributo-data-imagem2": {
             "block": {
-                "description": "Quando será o fim?",
-                "file": "Digite uma data de termino"
+                "description": "Digite a URL da sua imagem:",
+                "text": "URL"
             }
         },
-        "ms-atributo-data-link": {
+        "ms-atributo-data-imagem3": {
             "block": {
-                "description": "Adicione um link",
-                "text": "Qual o link do produto"
+                "description": "Digite a URL da sua imagem:",
+                "text": "URL"
             }
         }
     }

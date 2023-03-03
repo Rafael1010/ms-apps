@@ -5,9 +5,9 @@ class CategoryFeed extends HTMLElement {
 
         const SHADOW = this.attachShadow({"mode": "open"})
 
-        let imagem1 = this.getAtribute("data-imagem1")
-        let imagem2 = this.getAtribute("data-imagem2")
-        let imagem3 = this.getAtribute("data-imagem3")
+        let imagem1 = this.getAtribute("ms-atributo-data-imagem1")
+        let imagem2 = this.getAtribute("ms-atributo-data-imagem2")
+        let imagem3 = this.getAtribute("ms-atributo-data-imagem3")
 
         const CSS = `
         <style>
