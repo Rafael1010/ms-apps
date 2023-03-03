@@ -1,17 +1,10 @@
 class CategoryFeed extends HTMLElement {
-
     constructor() {
-        super()
-
-        const SHADOW = this.attachShadow({"mode": "open"})
-
-        let imagem1 = this.getAttribute("ms-atributo-data-imagem1")
-        let imagem2 = this.getAttribute("ms-atributo-data-imagem2")
-        let imagem3 = this.getAttribute("ms-atributo-data-imagem3")
-
-        const CSS = `
+      super();
+      const shadow = this.attachShadow({ mode: 'open' });
+      const css = `
         <style>
-        section {
+          section {
             width: 100%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -21,26 +14,43 @@ class CategoryFeed extends HTMLElement {
             max-width: 100%;
           }
         </style>
-    `
-
-        const HTML =  document.createElement("section")
-        HTML.innerHTML = `
-        ${CSS}
-        <section>
-            <img src="${imagem1}" alt="Categoria">
-            <img src="${imagem2}" alt="Categoria">
-            <img src="${imagem3}" alt="Categoria">
-        </section>
-    `
-
-    SHADOW.appendChild(HTML)
-
+      `;
+      const section = document.createElement('section');
+      shadow.appendChild(section);
+      shadow.innerHTML = css;
+      this.imagem1 = this.getAttribute('ms-atributo-data-imagem1');
+      this.imagem2 = this.getAttribute('ms-atributo-data-imagem2');
+      this.imagem3 = this.getAttribute('ms-atributo-data-imagem3');
+      this.render();
     }
-
-
-}
-
-customElements.define("ms-apps-categoryFeed", CategoryFeed)
-
-
-
+  
+    static get observedAttributes() {
+      return ['ms-atributo-data-imagem1', 'ms-atributo-data-imagem2', 'ms-atributo-data-imagem3'];
+    }
+  
+    attributeChangedCallback(name, oldValue, newValue) {
+      switch (name) {
+        case 'ms-atributo-data-imagem1':
+          this.imagem1 = newValue;
+          break;
+        case 'ms-atributo-data-imagem2':
+          this.imagem2 = newValue;
+          break;
+        case 'ms-atributo-data-imagem3':
+          this.imagem3 = newValue;
+          break;
+      }
+      this.render();
+    }
+  
+    render() {
+      this.shadowRoot.querySelector('section').innerHTML = `
+        <img src="${this.imagem1}" alt="Categoria">
+        <img src="${this.imagem2}" alt="Categoria">
+        <img src="${this.imagem3}" alt="Categoria">
+      `;
+    }
+  }
+  
+  customElements.define('ms-apps-categoryFeed', CategoryFeed);
+  
